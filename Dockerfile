@@ -13,3 +13,5 @@ RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
   nodejs \
   yarn \
   && rm -rf /var/lib/apt/lists/*
+
+RUN useradd -ms /bin/bash -u 1001 jenkins
