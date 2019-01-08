@@ -14,4 +14,4 @@ RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
   yarn \
   && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir $HOME/.yarn && mkdir -p $HOME/.catch/yarn
+RUN mkdir /.yarn && mkdir -p /.catch/yarn
