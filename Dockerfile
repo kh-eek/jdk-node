@@ -13,5 +13,3 @@ RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
   nodejs \
   yarn \
   && rm -rf /var/lib/apt/lists/*
-
-RUN mkdir /.yarn && mkdir -p /.catch/yarn && chown -R 777 /.yarn && chown -R 777 /.catch/yarn
